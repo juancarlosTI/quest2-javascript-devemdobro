@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <title>Ex3</title>
+</head>
+<body>
+    <div class="container">
+        <div class="descricao">
+            <h1 class="descricao-titulo">FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+            <p class="descricao-texto">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+        <div class="form">
+            <form name="formulario" action="post">
+                <ul>
+                    <li>
+                        <input name="name" id="name"placeholder="Nome completo *" type="text">
+                        <p class="error">
+                            campo obrigatório
+                        </p>
+                    </li>
+                    <li>
+                        <input name="email" id="email" placeholder="Email *" type="text">
+                        <p class="error">
+                            campo obrigatório
+                        </p>
+                    </li>
+                    <li>
+                        <input name="telefone" id="telefone" placeholder="Telefone *" type="text">
+                        <p class="error">
+                            campo obrigatório
+                        </p>
+                    </li>
+                    <li>
+                        <input name="mensagem" id="mensagem" placeholder="Mensagem *" type="text">
+                        <p class="error">
+                            campo obrigatório
+                        </p>
+                        <p></p>
+                    </li>
+                    <p class="alerta-form">
+                        *campos obrigatórios
+                    </p>
+                    <div class="button">
+                        <p onclick="submit()">Enviar</p>
+                    </div>
+                </ul>
+                
+                
+            </form>
+            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
