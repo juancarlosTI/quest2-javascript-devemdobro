@@ -1,6 +1,4 @@
 
-alert("Falta estilizar o texto '*campo obrigatorio' e o flex-start dos inputs");
-
 // ARRAY DE FORM'S
 
 let arrayPosts = [];
