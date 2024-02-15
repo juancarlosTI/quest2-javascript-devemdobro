@@ -8,7 +8,7 @@ function submit(){
     let inputs = document.querySelectorAll('input');
     let erros = document.querySelectorAll('.error');
     
-    let arrayItem = [];
+    let arrayItem = {};
 
     for (let i = 0; i < inputs.length;i++){
         let input = inputs[i];
@@ -40,3 +40,15 @@ function submit(){
 }
 
 
+/* 
+  Tentei fazer o arrayItem ser um objeto, mas não consegui adicionar os campos 1 por 1 dentro do objeto, até que todos os campos sejam preenchidos e ao final, validar se todos os campos estão preenchidos para validar a criação de um objeto!
+
+  Estrutura do objeto:
+
+  arrayItem.nome = input.value
+  arrayItem.email = input.value
+  arrayItem.telefone = input.value
+  arrayItem.mensagem = input.value
+
+  
+*/
